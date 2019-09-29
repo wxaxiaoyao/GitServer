@@ -1,0 +1,23 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.23.0",
+    "joi": "^14.3.1",
+    "jwt-simple": "^0.5.6",
+    "lodash": "^4.17.15",
+    "nodegit": "^0.26.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0",
+    "egg-mock": "^3.23.2"
+  }
+}
